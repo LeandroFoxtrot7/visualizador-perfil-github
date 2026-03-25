@@ -145,11 +145,6 @@ main {
   display: none;
 }
 
-.profile-card img{
-  width: 200px;
-  border-radius: 50%;
-}
-
 .profile-card {
   display: flex;
   align-items: center;
@@ -189,4 +184,24 @@ main {
   font-size: var(--font-lg);
   font-weight: 500;
   margin-top: var(--spacing-xl);
+}
+
+.profile-counters {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 80px 0;
+}
+
+.profile-counters h4 {
+  font-weight: normal;
+  font-size: 0.75rem;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.profile-counters span {
+  font-size: 1.8rem;
+  font-weight: bold;
+
 }

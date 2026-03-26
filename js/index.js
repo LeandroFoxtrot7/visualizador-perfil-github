@@ -9,4 +9,11 @@ btnSearch.addEventListener("click", () => {
     handleSearch(userName, profileResults);
 });
 
+inputSearch.addEventListener("keyup", (e) => { 
+    if (e.key === "Enter") { 
+        const userName = inputSearch.value; 
+        handleSearch(userName, profileResults); 
+    } 
+});
+
 
